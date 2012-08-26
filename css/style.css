@@ -443,14 +443,15 @@ div[role=main] {
 h1 {
   font-size: 4em;
   line-height: 1.125em;
+  margin-bottom: 0.15em;
   font-weight: 300; }
 
-/* line 60, style.css.scss */
+/* line 61, style.css.scss */
 h2 {
   font-size: 3em;
   line-height: 1.5em; }
 
-/* line 64, style.css.scss */
+/* line 65, style.css.scss */
 h3 {
   font-size: 1.5em;
   line-height: 2em;
@@ -458,39 +459,39 @@ h3 {
   font-weight: 400;
   color: #1c2d48; }
 
-/* line 71, style.css.scss */
+/* line 72, style.css.scss */
 h4 {
   font-size: 1.3em;
   line-height: 2.30769em;
   font-weight: 400; }
 
-/* line 76, style.css.scss */
+/* line 77, style.css.scss */
 p {
   margin-bottom: 0.75em;
   font-size: 1em;
   line-height: 1.65em;
   color: #1c2d48; }
-  /* line 81, style.css.scss */
+  /* line 82, style.css.scss */
   p em {
     font-weight: 600;
     font-style: normal; }
 
-/* line 87, style.css.scss */
+/* line 88, style.css.scss */
 #menu {
   list-style-type: none;
   padding-left: 5px; }
-  /* line 90, style.css.scss */
+  /* line 91, style.css.scss */
   #menu li {
     font-size: 1.6em;
     line-height: 1.875em; }
-  /* line 94, style.css.scss */
+  /* line 95, style.css.scss */
   #menu a {
     color: #069FD6; }
-    /* line 96, style.css.scss */
+    /* line 97, style.css.scss */
     #menu a:hover {
       color: #0663CC; }
   @media screen and (max-width: 600px) {
-    /* line 87, style.css.scss */
+    /* line 88, style.css.scss */
     #menu {
       margin: 0;
       padding: 0;
@@ -516,39 +517,39 @@ p {
         /* line 50, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
         #menu li.last {
           padding-right: 0; }
-      /* line 103, style.css.scss */
+      /* line 104, style.css.scss */
       #menu li {
         font-size: 1.3em;
         line-height: 2.30769em; } }
 
-/* line 109, style.css.scss */
+/* line 110, style.css.scss */
 #splash {
   display: table;
   height: 100%;
   padding-left: 80px; }
-  /* line 114, style.css.scss */
+  /* line 115, style.css.scss */
   #splash section {
     display: table-cell;
     vertical-align: middle; }
   @media screen and (max-width: 600px) {
-    /* line 109, style.css.scss */
+    /* line 110, style.css.scss */
     #splash {
       padding-left: 10px; } }
 
-/* line 124, style.css.scss */
+/* line 125, style.css.scss */
 #content-body {
   display: table;
   height: 100%; }
-  /* line 128, style.css.scss */
+  /* line 129, style.css.scss */
   #content-body section {
     display: table-cell;
     vertical-align: middle; }
   @media screen and (max-width: 600px) {
-    /* line 124, style.css.scss */
+    /* line 125, style.css.scss */
     #content-body {
       height: auto; } }
 
-/* line 138, style.css.scss */
+/* line 139, style.css.scss */
 #content {
   border-left: 2px solid #04BFBF;
   padding-left: 25px;
@@ -556,11 +557,11 @@ p {
   padding-top: 5px;
   padding-right: 5px;
   min-height: 460px; }
-  /* line 145, style.css.scss */
+  /* line 146, style.css.scss */
   #content h2 {
     margin-bottom: 0.75em; }
 
-/* line 150, style.css.scss */
+/* line 151, style.css.scss */
 a {
   text-decoration: none;
   color: #0663CC;
@@ -568,11 +569,21 @@ a {
   -moz-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out; }
-  /* line 154, style.css.scss */
+  /* line 155, style.css.scss */
   a:hover {
     color: #069FD6;
     text-decoration: underline; }
 
-/* line 160, style.css.scss */
+/* line 161, style.css.scss */
 ul.bare {
   list-style-type: none; }
+
+/* line 165, style.css.scss */
+.blog-original {
+  border: 1px solid #069FD6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  padding: 5px; }
