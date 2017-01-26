@@ -379,79 +379,75 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/* line 61, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
-* html {
-  font-size: 100%; }
-
-/* line 64, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, /Users/derrick/.rvm/gems/ruby-2.2.1@derrickko.com/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
-  font-size: 16px;
+  font-size: 100%;
   line-height: 1.5em; }
 
-/* line 6, style.css.scss */
+/* line 6, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 * {
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 8, style.css.scss */
+  /* line 8, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   * ::selection {
     background: #c4fefe; }
-  /* line 11, style.css.scss */
+  /* line 11, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   * ::-moz-selection {
     background: #c4fefe; }
 
-/* line 18, style.css.scss */
+/* line 18, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 html {
   color: #031634;
   height: 100%; }
 
-/* line 23, style.css.scss */
+/* line 23, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 body {
   height: 100%;
   font-family: 'Source Sans Pro', sans-serif; }
 
-/* line 28, style.css.scss */
+/* line 28, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 div[role=main] {
   height: 100%; }
 
-/* line 32, style.css.scss */
+/* line 32, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 .left {
   float: left;
   height: 100%;
   width: 50%;
   max-width: 400px; }
   @media screen and (max-width: 600px) {
-    /* line 32, style.css.scss */
+    /* line 32, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
     .left {
       height: auto;
       padding-left: 10px;
       width: 100%; } }
 
-/* line 44, style.css.scss */
+/* line 44, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 .right {
   float: left;
   width: 50%;
   max-width: 480px;
   height: 100%; }
   @media screen and (max-width: 600px) {
-    /* line 44, style.css.scss */
+    /* line 44, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
     .right {
       height: auto;
       width: 100%; } }
 
-/* line 55, style.css.scss */
+/* line 55, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 h1 {
   font-size: 4em;
   line-height: 1.125em;
   margin-bottom: 0.15em;
   font-weight: 300; }
 
-/* line 61, style.css.scss */
+/* line 61, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 h2 {
   font-size: 3em;
   line-height: 1.5em; }
 
-/* line 65, style.css.scss */
+/* line 65, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 h3 {
   font-size: 1.5em;
   line-height: 2em;
@@ -459,97 +455,96 @@ h3 {
   font-weight: 400;
   color: #1c2d48; }
 
-/* line 72, style.css.scss */
+/* line 72, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 h4 {
   font-size: 1.3em;
   line-height: 2.30769em;
   font-weight: 400; }
 
-/* line 77, style.css.scss */
+/* line 77, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 p {
   margin-bottom: 0.75em;
   font-size: 1em;
   line-height: 1.65em;
   color: #1c2d48; }
-  /* line 82, style.css.scss */
+  /* line 82, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   p em {
     font-weight: 600;
     font-style: normal; }
 
-/* line 88, style.css.scss */
+/* line 88, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 #menu {
   list-style-type: none;
   padding-left: 5px; }
-  /* line 91, style.css.scss */
+  /* line 91, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   #menu li {
     font-size: 1.6em;
     line-height: 1.875em; }
-  /* line 95, style.css.scss */
+  /* line 95, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   #menu a {
     color: #069FD6; }
-    /* line 97, style.css.scss */
+    /* line 97, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
     #menu a:hover {
       color: #0663CC; }
   @media screen and (max-width: 600px) {
-    /* line 88, style.css.scss */
+    /* line 88, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
     #menu {
       margin: 0;
       padding: 0;
       border: 0;
       overflow: hidden;
       *zoom: 1; }
-      /* line 60, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+      /* line 62, /Users/derrick/.rvm/gems/ruby-2.2.1@derrickko.com/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
       #menu li {
         list-style-image: none;
         list-style-type: none;
         margin-left: 0;
         white-space: nowrap;
-        display: inline;
         float: left;
         padding-left: 8px;
         padding-right: 8px; }
-        /* line 48, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
-        #menu li:first-child, #menu li.first {
+        /* line 49, /Users/derrick/.rvm/gems/ruby-2.2.1@derrickko.com/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
+        #menu li:first-child {
           padding-left: 0; }
-        /* line 49, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+        /* line 50, /Users/derrick/.rvm/gems/ruby-2.2.1@derrickko.com/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
         #menu li:last-child {
           padding-right: 0; }
-        /* line 50, ../../../../.rvm/gems/ruby-1.9.3-p194@derrickko/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+        /* line 52, /Users/derrick/.rvm/gems/ruby-2.2.1@derrickko.com/gems/compass-core-1.0.3/stylesheets/compass/typography/lists/_horizontal-list.scss */
         #menu li.last {
           padding-right: 0; }
-      /* line 104, style.css.scss */
+      /* line 104, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
       #menu li {
         font-size: 1.3em;
         line-height: 2.30769em; } }
 
-/* line 110, style.css.scss */
+/* line 110, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 #splash {
   display: table;
   height: 100%;
   padding-left: 80px; }
-  /* line 115, style.css.scss */
+  /* line 115, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   #splash section {
     display: table-cell;
     vertical-align: middle; }
   @media screen and (max-width: 600px) {
-    /* line 110, style.css.scss */
+    /* line 110, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
     #splash {
       padding-left: 10px; } }
 
-/* line 125, style.css.scss */
+/* line 125, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 #content-body {
   display: table;
   height: 100%; }
-  /* line 129, style.css.scss */
+  /* line 129, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   #content-body section {
     display: table-cell;
     vertical-align: middle; }
   @media screen and (max-width: 600px) {
-    /* line 125, style.css.scss */
+    /* line 125, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
     #content-body {
       height: auto; } }
 
-/* line 139, style.css.scss */
+/* line 139, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 #content {
   border-left: 2px solid #04BFBF;
   padding-left: 25px;
@@ -557,33 +552,31 @@ p {
   padding-top: 5px;
   padding-right: 5px;
   min-height: 460px; }
-  /* line 146, style.css.scss */
+  /* line 146, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   #content h2 {
     margin-bottom: 0.75em; }
 
-/* line 151, style.css.scss */
+/* line 151, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 a {
   text-decoration: none;
   color: #0663CC;
-  -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out; }
-  /* line 155, style.css.scss */
+  /* line 155, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
   a:hover {
     color: #069FD6;
     text-decoration: underline; }
 
-/* line 161, style.css.scss */
+/* line 161, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 ul.bare {
   list-style-type: none; }
 
-/* line 165, style.css.scss */
+/* line 165, /Users/derrick/workspace/derrickko.com/source/css/style.css.scss */
 .blog-original {
   border: 1px solid #069FD6;
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   padding: 5px; }
